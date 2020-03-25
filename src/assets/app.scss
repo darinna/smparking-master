@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap-vue/src/index.scss';
+
+body{
+    margin-top: auto;
+    background-color: $light;
+}
+
+body::-webkit-scrollbar {
+  width: .5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
