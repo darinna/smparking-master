@@ -20,7 +20,7 @@
         <router-link to="/config" tag="button" class="btn btn-danger m-2">To Config</router-link>
       </div>
     </div>
-
+<a href=""></a>
     <login></login>
   </div>
 </template>
