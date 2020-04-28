@@ -14,13 +14,14 @@
         </h1>
         <ul class="list-unstyled components mb-5">
           <li class="active">
-            <a
+            <router-link to="/config" class="config">Config</router-link>
+            <!-- <a
               href="#homeSubmenu"
               data-toggle="collapse"
               aria-expanded="false"
-              class="dropdown-toggle"
-            >Home</a>
-            <ul class="collapse list-unstyled" id="homeSubmenu">
+              
+            >Config</a> -->
+            <!-- <ul class="collapse list-unstyled" id="homeSubmenu">
               <li>
                 <a href="#">Home 1</a>
               </li>
@@ -30,36 +31,46 @@
               <li>
                 <a href="#">Home 3</a>
               </li>
-            </ul>
+            </ul> -->
           </li>
+
+
           <li>
-            <a href="#">About</a>
+            <!-- <a href="#">Dashboard</a> -->
+            <router-link to="/dashboard"  class="dashboard">Dashboard</router-link>
           </li>
+
           <li>
             <a
               href="#pageSubmenu"
               data-toggle="collapse"
               aria-expanded="false"
               class="dropdown-toggle"
-            >Pages</a>
+            >Floor</a>
             <ul class="collapse list-unstyled" id="pageSubmenu">
               <li>
-                <a href="#">Page 1</a>
+                <a href="#">1st Floor</a>
               </li>
               <li>
-                <a href="#">Page 2</a>
+                <a href="#">2nd Floor</a>
               </li>
               <li>
-                <a href="#">Page 3</a>
+                <a href="#">3th Floor</a>
               </li>
             </ul>
           </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          
+          
           <li>
             <a href="#">Portfolio</a>
           </li>
           <li>
             <a href="#">Contact</a>
           </li>
+          
         </ul>
 
         <div class="mb-5">

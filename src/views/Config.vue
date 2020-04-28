@@ -56,7 +56,8 @@ export default {
     Navbar,
     Sidebar,
     PageNavi
-  }
+  },
+ 
 };
 </script>
 <style lang="scss">

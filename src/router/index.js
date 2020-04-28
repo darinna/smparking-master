@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Config from '../views/Config.vue'
+import Dashboard from '../views/Dashboard.vue'
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,11 @@ const routes = [
     path:'/config',
     name:'config',
     component:Config
+  },
+  {
+    path: '/dashboard',
+    name:'dashboard',
+    component:Dashboard
   }
 ];
 

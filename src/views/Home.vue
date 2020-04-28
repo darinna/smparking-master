@@ -1,5 +1,6 @@
 <template>
-  <div class="home container bg-white">
+<div class="home">
+  <div class="container bg-white">
     <!-- <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />-->
     <div class="row h-100 d-inline-flex p-2">
@@ -12,9 +13,12 @@
           data-toggle="modal"
           data-target="#login"
         >Login</a>
-        <a>
-          <button type="button" class="btn btn-info">Info</button>
-        </a>
+        <div class="col">
+        <router-link to="/dashboard" tag="button" class="btn btn-success m-2">Dashboard</router-link>
+      </div>
+        <!-- <a>
+          <button type="button" class="btn btn-info">Dashboard</button>
+        </a> -->
       </div>
       <div class="col">
         <router-link to="/config" tag="button" class="btn btn-danger m-2">To Config</router-link>
@@ -22,6 +26,7 @@
     </div>
 <a href=""></a>
     <login></login>
+  </div>
   </div>
 </template>
 
